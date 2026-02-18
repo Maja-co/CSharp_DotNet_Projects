@@ -1,0 +1,14 @@
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/bin/Debug/net10.0/Introduktion
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/bin/Debug/net10.0/Introduktion.deps.json
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/bin/Debug/net10.0/Introduktion.runtimeconfig.json
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/bin/Debug/net10.0/Introduktion.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/bin/Debug/net10.0/Introduktion.pdb
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/obj/Debug/net10.0/Introduktion.GeneratedMSBuildEditorConfig.editorconfig
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/obj/Debug/net10.0/Introduktion.AssemblyInfoInputs.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/obj/Debug/net10.0/Introduktion.AssemblyInfo.cs
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/obj/Debug/net10.0/Introduktion.csproj.CoreCompileInputs.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/obj/Debug/net10.0/Introduktion.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/obj/Debug/net10.0/refint/Introduktion.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/obj/Debug/net10.0/Introduktion.pdb
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/obj/Debug/net10.0/Introduktion.genruntimeconfig.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Introduktion/obj/Debug/net10.0/ref/Introduktion.dll

@@ -1,0 +1,14 @@
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/obj/Debug/net10.0/Rekursion.GeneratedMSBuildEditorConfig.editorconfig
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/obj/Debug/net10.0/Rekursion.AssemblyInfoInputs.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/obj/Debug/net10.0/Rekursion.AssemblyInfo.cs
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/obj/Debug/net10.0/Rekursion.csproj.CoreCompileInputs.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/bin/Debug/net10.0/Rekursion
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/bin/Debug/net10.0/Rekursion.deps.json
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/bin/Debug/net10.0/Rekursion.runtimeconfig.json
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/bin/Debug/net10.0/Rekursion.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/bin/Debug/net10.0/Rekursion.pdb
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/obj/Debug/net10.0/Rekursion.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/obj/Debug/net10.0/refint/Rekursion.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/obj/Debug/net10.0/Rekursion.pdb
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/obj/Debug/net10.0/Rekursion.genruntimeconfig.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Rekursion/obj/Debug/net10.0/ref/Rekursion.dll

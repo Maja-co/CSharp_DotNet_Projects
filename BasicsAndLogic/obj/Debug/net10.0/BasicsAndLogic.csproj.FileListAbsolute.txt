@@ -1,0 +1,14 @@
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/bin/Debug/net10.0/BasicsAndLogic
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/bin/Debug/net10.0/BasicsAndLogic.deps.json
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/bin/Debug/net10.0/BasicsAndLogic.runtimeconfig.json
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/bin/Debug/net10.0/BasicsAndLogic.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/bin/Debug/net10.0/BasicsAndLogic.pdb
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/obj/Debug/net10.0/BasicsAndLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/obj/Debug/net10.0/BasicsAndLogic.AssemblyInfoInputs.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/obj/Debug/net10.0/BasicsAndLogic.AssemblyInfo.cs
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/obj/Debug/net10.0/BasicsAndLogic.csproj.CoreCompileInputs.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/obj/Debug/net10.0/BasicsAndLogic.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/obj/Debug/net10.0/refint/BasicsAndLogic.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/obj/Debug/net10.0/BasicsAndLogic.pdb
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/obj/Debug/net10.0/BasicsAndLogic.genruntimeconfig.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/BasicsAndLogic/obj/Debug/net10.0/ref/BasicsAndLogic.dll

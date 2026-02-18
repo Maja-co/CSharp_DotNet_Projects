@@ -1,0 +1,14 @@
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/bin/Debug/net10.0/Fibonacci
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/bin/Debug/net10.0/Fibonacci.deps.json
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/bin/Debug/net10.0/Fibonacci.runtimeconfig.json
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/bin/Debug/net10.0/Fibonacci.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/bin/Debug/net10.0/Fibonacci.pdb
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/obj/Debug/net10.0/Fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/obj/Debug/net10.0/Fibonacci.AssemblyInfoInputs.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/obj/Debug/net10.0/Fibonacci.AssemblyInfo.cs
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/obj/Debug/net10.0/Fibonacci.csproj.CoreCompileInputs.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/obj/Debug/net10.0/Fibonacci.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/obj/Debug/net10.0/refint/Fibonacci.dll
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/obj/Debug/net10.0/Fibonacci.pdb
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/obj/Debug/net10.0/Fibonacci.genruntimeconfig.cache
+/Users/majakragelund/Desktop/Datamatiker /C# & .NET/Selve kode/Introduktion/Fibonacci/obj/Debug/net10.0/ref/Fibonacci.dll
