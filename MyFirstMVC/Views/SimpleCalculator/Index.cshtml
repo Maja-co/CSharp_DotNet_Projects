@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Simple Calculator";
+}
+
+<h1>Simple Calculator</h1>
+
+<form method="post">
+    <p>
+        <input type="text" name="Number1" value="@ViewBag.Number1" />
+    </p>
+    <p>
+        <input type="text" name="Number2" value="@ViewBag.Number2" />
+    </p>
+    <p>
+        <input type="submit" name="operator" value="+" />
+        <input type="submit" name="operator" value="-" />
+        <input type="submit" name="operator" value="*" />
+        <input type="submit" name="operator" value="/" />
+    </p>
+</form>
+
+@if (ViewBag.Result != null)
+{
+    <p>result: @ViewBag.Result</p>
+}

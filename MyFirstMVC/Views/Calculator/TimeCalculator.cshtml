@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Time Calculator";
+}
+
+<h1>Time Calculator (in seconds)</h1>
+
+<form method="post">
+    <p>
+        <label>Hours</label><br />
+        <input type="text" name="Hours" />
+    </p>
+    <p>
+        <label>Minutes</label><br />
+        <input type="text" name="Minutes" />
+    </p>
+    <p>
+        <label>Seconds</label><br />
+        <input type="text" name="Seconds" />
+    </p>
+    <p>
+        <input type="submit" value="Calculate time" />
+    </p>
+</form>
+
+@if (ViewBag.Total != null)
+{
+    <p>@ViewBag.Hours hours + @ViewBag.Minutes minutes + @ViewBag.Seconds seconds = @ViewBag.Total seconds in total</p>
+}

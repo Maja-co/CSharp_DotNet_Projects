@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Great Rockbands";
+}
+
+<h1>Great Rockbands</h1>
+
+<ol>
+    @foreach (string band in ViewBag.Rockbands)
+    {
+        <li>@band</li>
+    }
+</ol>

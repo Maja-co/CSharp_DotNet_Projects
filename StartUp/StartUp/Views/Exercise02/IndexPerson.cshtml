@@ -1,0 +1,16 @@
+@using test.Models
+@{
+    ViewBag.Title = "IndexPerson";
+
+    void RenderPerson(Person person) {
+        <h2>@person.FirstName @person.LastName</h2>
+        <p>Phone numbers: @string.Join(", ", person.PhoneNumbers)</p>
+        <p>Adresse: @person.Address @person.Zip, @person.City</p>
+        <p>Alder: @person.FirstName er @person.Age år gammel</p>
+        <hr/>
+    }
+}
+
+@foreach (Person personLoop in ViewBag.PeopleList) {
+    RenderPerson(personLoop);
+}

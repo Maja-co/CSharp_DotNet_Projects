@@ -1,0 +1,39 @@
+@using MusicStore.Models
+@model IEnumerable<Product>
+@{
+    ViewBag.Title = "Music Store";
+
+    // En "Render" metode til bøger
+    void RenderBook(Book b) {
+        <div>
+            <h3>Bog: @b.Title</h3>
+            <p>Forfatter: @b.Author (@b.Published)</p>
+            <p>Pris: @b.Price</p>
+            <hr/>
+        </div>
+    }
+
+    // En "Render" metode til CD'er
+    void RenderCD(MusicCD cd) {
+        <div>
+            <h3>Album: @cd.Title</h3>
+            <p>Artist: @cd.Artist (@cd.Released)</p>
+            <ol>
+                @foreach(var track in cd.TrackList) {
+                    <li>@track</li>
+                }
+            </ol>
+            <hr/>
+        </div>
+    }
+}
+
+@* Her looper vi igennem listen, som vi nu kalder Model i stedet for ViewBag *@
+@foreach (var p in Model) {
+    if (p is Book book) {
+        RenderBook(book);
+    }
+    else if (p is MusicCD cd) {
+        RenderCD(cd);
+    }
+}

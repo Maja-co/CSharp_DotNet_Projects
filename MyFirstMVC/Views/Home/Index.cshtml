@@ -1,0 +1,10 @@
+@model MyFirstMVC.Models.PersonModel
+
+@{
+    ViewData["Title"] = "Min første side";
+}
+
+<h1>My first view</h1>
+<p>Name: @Model.Name</p>
+<p>Age: @Model.Age</p>
+<p>Birthday: @Model.Birthday.ToString("dd. MMMM yyyy")</p>
