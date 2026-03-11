@@ -1,0 +1,37 @@
+
+
+@{
+    ViewBag.Title = "Countries";
+}
+
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+<div>
+
+    @using (Html.BeginForm("Index", "Exercise01", FormMethod.Get)) {
+        @Html.DropDownList("countries", (IEnumerable<SelectListItem>)ViewBag.CountryList)
+        <input type="submit" value="Show country code"/>
+    }
+    @if (ViewBag.CountryCode != null) {
+        <strong>Country code: </strong>
+        @ViewBag.CountryCode
+    }
+    @using (Html.BeginForm("Index", "Exercise01", FormMethod.Post)) {
+        <p>
+            <label>Country name:</label>
+            <input type="text" name="countryName"/>
+        </p>
+        <p>
+            <label>Country code:</label>
+            <input type="text" name="countryCode"/>
+        </p>
+        <button type="submit">Add</button>
+    }
+</div>
+</body>
+</html>

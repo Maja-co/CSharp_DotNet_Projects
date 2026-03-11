@@ -1,0 +1,66 @@
+@model Parking.Models.ParkingTicketMachine
+@{
+    ViewBag.Title = "Parking Ticket Machine";
+}
+
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+<div>
+    @using (Html.BeginForm("Index", "ParkingTicketMachine", FormMethod.Post)) {
+        <p>
+            <label>Time now</label>
+            <text>@Model.TimeNowString</text>
+        </p>
+        <p>
+            <label>Paid Until:</label>
+            <label>@Model.PaidUntilString</label>
+        </p>
+        <p>
+            <label>Info display</label>
+            @if (ViewBag.Info != null) {
+                <label>@ViewBag.Info</label>
+            }
+            else {
+                <label>@Model.AmountInserted kr is paid</label>
+            }
+            <label>
+                <input type="hidden" name="amountInserted" value="@Model.AmountInserted"/>
+            </label>
+        </p>
+
+        <h2>Coin Insert</h2>
+        <ul>
+            <li>
+                <button type="submit" name="1">1 kr</button>
+            </li>
+            <li>
+                <button type="submit" name="2">2 kr</button>
+            </li>
+            <li>
+                <button type="submit" name="5">5 kr</button>
+            </li>
+            <li>
+                <button type="submit" name="10">10 kr</button>
+            </li>
+            <li>
+                <button type="submit" name="20">20 kr</button>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <button type="submit" name="confirm">Confirm</button>
+            </li>
+            <li>
+                <button type="submit" name="cancel">Cancel</button>
+            </li>
+        </ul>
+    }
+</div>
+</body>
+</html>
