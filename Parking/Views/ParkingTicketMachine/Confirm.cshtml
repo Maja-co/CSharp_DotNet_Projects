@@ -1,0 +1,29 @@
+@model Parking.Models.ParkingTicketMachine
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+    <title>Parking Ticket</title>
+</head>
+<body>
+<div>
+    <p>
+        <label>Time now</label>
+        <text>@Model.TimeNowString</text>
+    </p>
+    <p>
+        <label>Paid Until:</label>
+        <label>@Model.PaidUntilString</label>
+    </p>
+    <p>
+        <label>@Model.AmountInserted kr is paid</label>
+    </p>
+
+</div>
+</body>
+</html>
