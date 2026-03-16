@@ -1,0 +1,6 @@
+@model List<PersonListe.Models.Person>
+
+@foreach(var p in Model)
+{
+    <partial name="_VisEnPerson" model="p" />
+}
