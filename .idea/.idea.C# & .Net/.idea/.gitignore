@@ -1,15 +1,44 @@
-# Default ignored files
+## --- .NET / MAUI Specifikt ---
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+nupkg/
+
+# Visual Studio / MSBuild midlertidige filer
+.vs/
+Generated\ Files/
+_ReSharper*/
+*.user
+*.userosscache
+*.sln.docuser
+*.suo
+*.userprefs
+
+## --- JetBrains / Rider ---
+.idea/
+*.iws
+*.iml
+*.ipr
 /shelf/
 /workspace.xml
-# Rider ignored files
-/contentModel.xml
-/.idea.Introduktion.iml
-/projectSettingsUpdater.xml
-/modules.xml
-# Ignored default folder with query files
-/queries/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
+
+## --- Database / SQL (Som du bad om) ---
+*.sql
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+## --- OS Specifikt (Mac & Windows "skrald") ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+desktop.ini
+
+## --- MAUI / Mobil Specifikt ---
+*.apk
+*.aab
+*.ipa
+*.app

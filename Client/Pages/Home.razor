@@ -1,0 +1,32 @@
+﻿@page "/"
+@inject HttpClient Http
+
+<PageTitle>Calculator</PageTitle>
+
+<h1>Calculator</h1>
+
+<label>First number: </label>
+<input @bind="calculation.Operand1" type="number"/>
+
+<label>Second number: </label>
+<input @bind="calculation.Operand2" type="number"/>
+
+<select @bind="calculation.Operator">
+    <option value="0">+</option>
+    <option value="1">-</option>
+    <option value="2">*</option>
+    <option value="3">/</option>
+</select>
+
+<button class="btn btn-primary" @onclick="Beregn">Beregn</button>
+
+<p>Result: @calculation.Sum</p>
+
+@code {
+    private Shared.Calculation calculation = new Shared.Calculation();
+
+    private async Task Beregn() {
+        var response = await Http.PostAsJsonAsync("http://localhost:5228/calculations", calculation);
+        calculation = await response.Content.ReadFromJsonAsync<Shared.Calculation>();
+    }
+}
