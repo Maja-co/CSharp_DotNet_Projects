@@ -1,0 +1,29 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<h1>Calculator</h1>
+
+
+
+<label>First number: </label>
+<input @bind="operand1" type="number" />
+
+<label>Second number: </label>
+<input @bind="operand2" type="number" />
+
+<button class="btn btn-primary" @onclick="Beregn">+</button>
+
+<p>Result: @result</p>
+
+@code {
+    private double operand1;
+    private double operand2;
+    private double result;
+
+    private void Beregn()
+    {
+        result = operand1 + operand2;
+    }
+}
