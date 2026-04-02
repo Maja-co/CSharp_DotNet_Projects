@@ -1,0 +1,41 @@
+namespace MinForsteMauiApp;
+
+public partial class MainPage : ContentPage {
+    int count = 0;
+
+    public MainPage() {
+        InitializeComponent();
+    }
+
+    private void MinKnap_Clicked(object sender, EventArgs e) {
+        MinKnap.Text = "Du trykkede!";
+    }
+
+    private void VisKnapCheck_CheckedChanged(object sender, CheckedChangedEventArgs e) {
+        MinKnap.IsVisible = e.Value;
+    }
+
+    private void OmbytØverste_Clicked(object sender, EventArgs e) {
+        string temp = BatmanLabel.Text;
+        BatmanLabel.Text = RobinLabel.Text;
+        RobinLabel.Text = temp;
+    }
+    
+    private void OmbytNederste_Clicked(object sender, EventArgs e) {
+        var label1 = MitGrid.Children
+            .OfType<Label>()
+            .FirstOrDefault(c => Grid.GetRow(c) == 1 && Grid.GetColumn(c) == 0);
+        var label2 = MitGrid.Children
+            .OfType<Label>()
+            .FirstOrDefault(c => Grid.GetRow(c) == 1 && Grid.GetColumn(c) == 2);
+
+        if (label1 != null && label2 != null) {
+            string temp = label1.Text;
+            label1.Text = label2.Text;
+            label2.Text = temp;
+        }
+    }
+    
+    
+}
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="MinForsteMauiApp.app/MinForsteMauiApp">
+      <BCSymbolMapName>MinForsteMauiApp.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>MinForsteMauiApp.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/majakragelund/Desktop/Datamatiker/C# &amp; .NET/Selve kode/Introduktion/MinForsteMauiApp/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>MinForsteMauiApp.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/majakragelund/Desktop/Datamatiker/C# &amp; .NET/Selve kode/Introduktion/MinForsteMauiApp</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
