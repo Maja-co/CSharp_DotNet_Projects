@@ -1,7 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MinForsteMauiApp.MainPage"
-             Title="DockLayout Demo">
+             Title="Radio og Checkbox">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+
+        <!-- RadioButtons -->
+        <RadioButton x:Name="NorthRadio" Content="North" GroupName="Retning"
+                     CheckedChanged="Radio_CheckedChanged" />
+        <RadioButton x:Name="SouthRadio" Content="South" GroupName="Retning"
+                     CheckedChanged="Radio_CheckedChanged" />
+        <RadioButton x:Name="EastRadio" Content="East" GroupName="Retning"
+                     CheckedChanged="Radio_CheckedChanged" />
+        <RadioButton x:Name="WestRadio" Content="West" GroupName="Retning"
+                     CheckedChanged="Radio_CheckedChanged" />
+
+        <!-- Checkboxes -->
+        <HorizontalStackLayout Spacing="10">
+            <CheckBox x:Name="LemonCheck" CheckedChanged="Check_CheckedChanged" />
+            <Label Text="Lemon" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout Spacing="10">
+            <CheckBox x:Name="OrangeCheck" CheckedChanged="Check_CheckedChanged" />
+            <Label Text="Orange" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <CheckBox x:Name="BananaCheck" CheckedChanged="Check_CheckedChanged" />
+            <Label Text="Banana" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <!-- Status labels -->
+        <Label x:Name="RadioStatus" Text="Vejr retning: ingen valgt" />
+        <Label x:Name="CheckStatus" Text="Frugt valgte: ingen valgt" />
+
+    </VerticalStackLayout>
 
 </ContentPage>

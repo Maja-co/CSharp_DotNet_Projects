@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MinForsteMauiApp.MainPage"
+             Title="DockLayout Demo">
+
+    <toolkit:DockLayout>
+
+        <Button Text="Nord"
+                toolkit:DockLayout.DockPosition="Top"
+                WidthRequest="200"
+                Clicked="Retning_Clicked" />
+
+        <Button Text="Syd"
+                toolkit:DockLayout.DockPosition="Bottom"
+                WidthRequest="200"
+                Clicked="Retning_Clicked" />
+
+        <Button Text="Vest"
+                toolkit:DockLayout.DockPosition="Left"
+                HeightRequest="300"
+                Clicked="Retning_Clicked" />
+
+        <Button Text="Øst"
+                toolkit:DockLayout.DockPosition="Right"
+                HeightRequest="300"
+                Clicked="Retning_Clicked" />
+        
+        
+        <ScrollView toolkit:DockLayout.DockPosition="None"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill">
+                <Editor x:Name="MinEditor"
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill" />
+        </ScrollView>
+
+    </toolkit:DockLayout>
+
+</ContentPage>

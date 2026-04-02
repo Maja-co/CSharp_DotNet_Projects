@@ -1,4 +1,6 @@
 /Users/majakragelund/Desktop/Datamatiker/C# & .NET/Selve kode/Introduktion/MinForsteMauiApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../MinForsteMauiApp.app/icudt.dat
+/Users/majakragelund/Desktop/Datamatiker/C# & .NET/Selve kode/Introduktion/MinForsteMauiApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../MinForsteMauiApp.app/CommunityToolkit.Maui.dll
+/Users/majakragelund/Desktop/Datamatiker/C# & .NET/Selve kode/Introduktion/MinForsteMauiApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../MinForsteMauiApp.app/CommunityToolkit.Maui.Core.dll
 /Users/majakragelund/Desktop/Datamatiker/C# & .NET/Selve kode/Introduktion/MinForsteMauiApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../MinForsteMauiApp.app/Microsoft.Extensions.Configuration.dll
 /Users/majakragelund/Desktop/Datamatiker/C# & .NET/Selve kode/Introduktion/MinForsteMauiApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../MinForsteMauiApp.app/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/majakragelund/Desktop/Datamatiker/C# & .NET/Selve kode/Introduktion/MinForsteMauiApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../MinForsteMauiApp.app/Microsoft.Extensions.DependencyInjection.dll
